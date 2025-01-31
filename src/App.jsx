@@ -79,10 +79,10 @@ const App = () => {
 <div>
       {user.map((item, index) => {
           return <div className='bg-emerald-300 w-full max-h-min p-4 gap-4 flex justify-center items-center flex-col'>
-             <h1 key={index} className='text-black text-xl '>
+             <h1 key={index} className='text-black text-xl font-semibold '>
             Hello, {item.name}
           </h1>
-          <h1 className='text-black text-xl '>Your mail is:{item.email}</h1>
+          <h1 className='text-black text-xl font-semibold'>Your mail is:{item.email}</h1>
       
           </div>
         })}
